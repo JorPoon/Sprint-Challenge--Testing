@@ -1,6 +1,6 @@
 
 exports.seed = function(knex) {
-      return knex('table_name').insert([
+      return knex('games').insert([
         {
           id: 1, 
           name: 'Epic Seven', 
