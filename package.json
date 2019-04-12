@@ -4,6 +4,7 @@
 	"description": "Testing Sprint Challenge",
 	"main": "index.js",
 	"scripts": {
+		"server": "nodemon index.js",
 		"test": "jest --watch --verbose",
 		"start": "nodemon index.js"
 	},
