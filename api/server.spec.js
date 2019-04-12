@@ -33,7 +33,7 @@ describe('server.js', () => {
             
         })
 
-        it(' should return an empty array', async () => {
+        it(' should return a list of games', async () => {
             games.insert({name: 'Epic Seven', genre: 'RPG', year: 2018})
             games.insert({name: 'Fate Grand Order', genre: 'RPG', year: 2015})
             games.insert({name: 'Fire Emblem Heroes', genre: 'RPG', year: 2017})
